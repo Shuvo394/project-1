@@ -1,0 +1,15 @@
+body {
+  background-color: #96D4D4;
+}
+
+.sec-table {
+    border: none;
+    margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #350fcf;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}

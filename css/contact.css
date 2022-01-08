@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../images/contact-bg-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main {
+  width: 400px;
+  margin: 100px auto 0px;
+}
+
+.register {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 3px 2px 2px rgb(22 22 22 / 40%);
+}
+
+form {}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+label {
+  color: #fff;
+  font-style: italic;
+  font-family: auto;
+}
+
+input.data-input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid rgb(221 6 6 / 40%);
+  border-radius: 20px;
+}
+
+input.submit {
+  text-align: center;
+  margin: 20px auto 0px;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  width: 80%;
+  font-size: 18px;
+  background-color: #16c7759c;
+  display: inherit;
+  transition: background-color 1s;
+}
+
+input.submit:hover {
+  background-color: #2916c79c;
+  color: #fff;
+}
